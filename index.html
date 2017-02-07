@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <script src="js/iscroll.js"></script>
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<!--Todo: try to drop inline JS. It is not good practise-->
+<body>
+<!--Todo HTML5 semantic elements describe big and logic part: use header for line is incorrect. The same point with a lot of sections.-->
+    <section class="header"></section>
+<!--Todo: You shouldn't use inline css. Except React :)-->
+    <button id="back"></button>
+    <h1></h1>
+    <section id="cart">
+        <span id="totalPrice">$0</span>
+    </section>
+<!--Todo: IDs should use for big module, functionality for relation with JS. -->
+    <section id="wrapper">
+        <section class="scroller">
+
+        </section>
+    </section>
+
+    <section id="cartSection">
+        <table id="cartlist">
+            <thead>
+                <tr>
+                    <td>
+                        <span>Товари</span>
+                    </td>
+                    <td>
+                        <span>Кількість</span>
+                    </td>
+                    <td>
+                        <span>Ціна</span>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <!--Todo: button class button. It is not a good point-->
+                        <button class="btn-element clearAll">Очистити все</button>
+                    </td>
+                    <td><span>Сума</span></td>
+                    <td><span id="cartPrice">$0</span></td>
+                </tr>
+            </tfoot>
+        </table>
+            <section id="buy">
+                <button class="btn-element" name="backShopping">Продовжити шопінг</button>
+                <button class="btn-element" name="buy">Купити</button>
+            </section>
+        </section>
+    <section class="footer"></section>
+</body>
+</html>

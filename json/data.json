@@ -1,0 +1,137 @@
+{
+    "Сорочки" : [
+        {
+            "name" : "Класична",
+            "src" : "images/items/t-shirts/t-short.png",
+            "price" : 250
+        },
+        {
+            "name" : "Сова",
+            "src" : "images/items/t-shirts/owl.png",
+            "price" : 312
+        },
+        {
+            "name" : "I Can",
+            "src" : "images/items/t-shirts/can.png",
+            "price" : 280
+        },
+        {
+            "name" : "Simple Brown",
+            "src" : "images/items/t-shirts/simple.png",
+            "price" : 225
+        },
+        {
+            "name" : "Dark Black",
+            "src" : "images/items/t-shirts/black.png",
+            "price" : 234
+        }
+    ],
+    "Ноутбуки" : [
+        {
+            "name" : "Asus",
+            "src" : "images/items/notebooks/asus.png",
+            "price" : 750
+        },
+        {
+            "name" : "MSI",
+            "src" : "images/items/notebooks/msi.png",
+            "price" : 625
+        },
+        {
+            "name" : "VAIO",
+            "src" : "images/items/notebooks/vaio.png",
+            "price" : 922
+        },
+        {
+            "name" : "HP",
+            "src" : "images/items/notebooks/hp.png",
+            "price" : 674
+        },
+        {
+            "name" : "Fujitsu",
+            "src" : "images/items/notebooks/fujitsu.png",
+            "price" : 527
+        }
+    ],
+    "Олівці" : [
+        {
+            "name" : "Red",
+            "src" : "images/items/pencils/red.png",
+            "price" : 1
+        },
+        {
+            "name" : "Green",
+            "src" : "images/items/pencils/green.png",
+            "price" : 1.5
+        },
+        {
+            "name" : "Gray",
+            "src" : "images/items/pencils/gray.png",
+            "price" : 2
+        },
+        {
+            "name" : "Blue",
+            "src" : "images/items/pencils/blue.png",
+            "price" : 1
+        },
+        {
+            "name" : "Purple",
+            "src" : "images/items/pencils/purple.png",
+            "price" : 2
+        }
+    ],
+    "Чашки" : [
+        {
+            "name" : "Red cap",
+            "src" : "images/items/caps/red.png",
+            "price" : 7
+        },
+        {
+            "name" : "Green cap",
+            "src" : "images/items/caps/green.png",
+            "price" : 9
+        },
+        {
+            "name" : "Pink cap",
+            "src" : "images/items/caps/pink.png",
+            "price" : 8
+        },
+        {
+            "name" : "Blue cap",
+            "src" : "images/items/caps/blue.png",
+            "price" : 10
+        },
+        {
+            "name" : "Yellow cap",
+            "src" : "images/items/caps/yellow.png",
+            "price" : 12
+        }
+    ],
+    "Іграшки" : [
+        {
+            "name" : "Angry birds",
+            "src" : "images/items/toys/bird.png",
+            "price" : 35
+        },
+        {
+            "name" : "Mr Potato",
+            "src" : "images/items/toys/potato.png",
+            "price" : 42
+        },
+        {
+            "name" : "Bear",
+            "src" : "images/items/toys/bear.png",
+            "price" : 37
+        },
+        {
+            "name" : "Minion",
+            "src" : "images/items/toys/minion.png",
+            "price" : 54
+        },
+        {
+            "name" : "Robot",
+            "src" : "images/items/toys/robot.png",
+            "price" : 75
+        }
+    ]
+}
